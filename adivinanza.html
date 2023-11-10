@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icons8-javascript-16.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/1a7b6830a2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="adivinanza.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html"><i class="fa-solid fa-calculator" style="color: #F8A94E;"></i>Calculadora</a>
+        <a class="active" href="adivinanza.html"><i class="fa-solid fa-puzzle-piece" style="color: #F8A94E;"></i></i>Adivinanza</a>
+    </div>
+
+    <h1>Adivina el número</h1>
+    <p>Introduce un número entre 1 y 100:</p>
+    <input type="number" id="numeroEntrada">
+    <button onclick="comprobar()">Comprobar</button>
+    <p id="respuesta">¡A jugar!</p>
+    <h4>Cantidad de intentos<p id="intento">0</p></h4>
+
+    <script src="adivinanza.js"></script>
+</body>
+
+</html>

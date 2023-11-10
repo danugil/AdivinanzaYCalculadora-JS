@@ -1,0 +1,37 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #262626;
+    margin: 0;
+}
+
+.navbar{
+    width: 100%;
+    background: #1b1b1b;
+    overflow: auto;
+    margin: 0;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
+
+.active{
+    font-weight: 800;
+    border-bottom: 2px solid #F8A94E;
+}
+
+.navbar a{
+    float: left;
+    padding: 15px;
+    color: #F8A94E;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    font-weight: 800;
+}
+
+i{
+    padding: 5px;
+}
+
+.responsive{
+    display: none;
+}
