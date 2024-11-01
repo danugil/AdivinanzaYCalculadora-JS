@@ -28,10 +28,10 @@ Este proyecto presenta una página web interactiva que incluye un juego de adivi
  ## Interfaz de usuario
 
 <div align="center">  
-  <img align="center" src="https://i.ibb.co/rKhn7x8/calculadora.png" alt="Screenshot Calculadora">
+  <img align="center" src="https://i.ibb.co/rKhn7x8/calculadora.png"  width=581 alt="Screenshot Calculadora">
 </div>
 <div align="center">  
-  <img align="center" src="https://i.ibb.co/SPFzR1w/adivinanza.png" alt="Screenshot Adivinanza">
+  <img align="center" src="https://i.ibb.co/SPFzR1w/adivinanza.png"  width=581 alt="Screenshot Adivinanza">
 </div>
 
 
